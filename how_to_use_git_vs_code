@@ -4,3 +4,7 @@ git 에서 repository를 선택하고,
 repo의 메뉴 중에 code에서 
 code 의 해당 repo 주소를 저장한다.
 git clone [repo 주소]
+
+# git config --global user.email "[github email]"
+# git config --global user.name "[github id]"
+
