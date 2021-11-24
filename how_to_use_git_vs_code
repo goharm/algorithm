@@ -1,0 +1,6 @@
+
+local 에서 저장소가 될 폴더를 하나 만들어 놓는다
+git 에서 repository를 선택하고,
+repo의 메뉴 중에 code에서 
+code 의 해당 repo 주소를 저장한다.
+git clone [repo 주소]
