@@ -1,3 +1,5 @@
+import sys
+
 second = 50
 
 def func01(first01):
@@ -10,6 +12,15 @@ def func02(first01):
     return
 
 if __name__ == '__main__':
-    first = 30
-    func01(first)
+    # first = 30
+    # func01(first)
+    
+    a = 30
+    b = 4.2
+    c = "g"
+    
+    sys.getsizeof(a)
+
+
+    
     pass
