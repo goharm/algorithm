@@ -1,11 +1,16 @@
-
-def func_01():
-    pass
-    return
-
+first = 10
+second = 0
 
 try:
+    third = first/second
+
+except ZeroDivisionError: 
+    third = first
     pass
 
-except Exception as e: 
+except Exception as e:
     pass
+
+
+print(third)
+pass
