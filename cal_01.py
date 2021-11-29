@@ -1,7 +1,4 @@
-a = 50 
-b = 20
-c = 10
-d = 0
+
 
 
 def add(a,b):
@@ -16,13 +13,23 @@ def mult(c,d):
 
 if __name__ == '__main__':
     try:
+        a = 50 
+        b = 20
+        c = 10
+        d = 0
+        mul, div = mult(c,d)
         print(add(a,b))
-        print(mult(c,d))
+        print(mul)
+        print(int(div))
+
     except ZeroDivisionError: 
         d = 1
         print(add(a,b))
         print("변수 변경 => d = 1")
-        print(mult(c,d))
+        mul, div = mult(c,d)
+        print(add(a,b))
+        print(mul)
+        print(int(div))
         pass
     
     
