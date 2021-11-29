@@ -5,11 +5,13 @@ def func_01():
 
 
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     try:
         pass
 
     except Exception as e: 
         pass
     
-    
+    finally:
+        pass
+pass
